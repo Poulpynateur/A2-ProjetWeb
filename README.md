@@ -6,7 +6,7 @@ Thématique : Site web pour le BDE CESI.
 Ce projet contient les fonctionnalités suivantes :
 * Système d'inscription et connexion
 * Page de présentation d'événement, de suggestions d'événement et d'un magasin
-* Gestion des rôles (Guest, Étudiant, Membre du BDE, Personnel établissement)
+* Gestion des rôles (*Guest, Étudiant, Membre du BDE, Personnel établissement*)
 
 **Etudiant :**
 * Poster des suggestions d'événements
