@@ -57,7 +57,7 @@ MAIL_ENCRYPTION=ssl
 
 ## Créer avec
 
-* [Laravel](https://laravel.com/) - Framework web
+* [Laravel](https://laravel.com/) - Framework web PHP
 * [Composer](https://getcomposer.org/) - Gestion des dépendances
 * [Bootstrap](https://getbootstrap.com/) - CSS et responsivité
 * [JQuery](https://jquery.com/) - Plugin JavaScript
