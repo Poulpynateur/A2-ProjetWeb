@@ -66,5 +66,5 @@ MAIL_ENCRYPTION=ssl
 
 * **Théodore DAO** - *Front end* - [Pandahkiin](https://github.com/Pandahkiin)
 * **Loïc BOLLENBACH** - *API node.js* - [Tank-White](https://github.com/Tank-White)
-* **Nicolas DE GHESELLE** - *Back end*
+* **Nicolas DE GHESELLE** - *Back end* - [Poulpynateur](https://github.com/Poulpynateur)
 
