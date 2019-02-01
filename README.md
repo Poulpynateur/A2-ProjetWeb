@@ -1,6 +1,6 @@
 # Projet WEB - A2
 
-Application web crée en deuxième années à l’EXIA CESI.
+Application web crée en deuxième années à l’EXIA CESI, projet de 10 jours fait par 3 personnes.
 Thématique : Site web pour le BDE CESI.
 
 Ce projet contient les fonctionnalités suivantes :
