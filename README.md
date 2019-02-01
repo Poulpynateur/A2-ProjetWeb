@@ -4,115 +4,67 @@ Application web crée en deuxième années à l’EXIA CESI.
 Thématique : Site web pour le BDE CESI.
 
 Ce projet contient les fonctionnalités suivantes :
-* Système d'inscription et connection
+* Système d'inscription et connexion
 * Page de présentation d'événement, de suggestions d'événement et d'un magasin
 * Gestion des rôles (Guest, Étudiant, Membre du BDE, Personnel établissement)
 
-Etudiant :
+**Etudiant :**
 * Poster des suggestions d'événements
-* S'incrire a des événement
+* S'inscrire a des événements
 * Poster des images/commentaires
 * Liker des images
 * Acheter des articles dans la boutique
 * Panier avec validation de commande
 
-Membre BDE :
+**Membre BDE :**
 * Page d'administration pour les membres du BDE avec CRUD sur :
 	* les événement
 	* les suggestion
 	* les articles du magasin
 	* les commentaires
 * Notification pour chaque commande du magasin
-* Notification pour chaque éléments signalés
+* Notification pour chaque élément signalé
 
-Personnel établissement :
+**Personnel établissement :**
 * Possibilité de signaler des :
 	* événements
 	* suggestions
 	* images
 	* commentaires
 
-## Getting Started
+## Prérequis
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
+Ce projet utilise un [API node.js](https://github.com/Poulpynateur/A2-ProjetWeb-API) pour fonctionner.
+Le fichier .env doit contenir :
+* Paramètres de la BDD :
 ```
-Give examples
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=database
+DB_USERNAME=root
+DB_PASSWORD=
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+* Paramètres pour l'envois de mails :
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.googlemail.com
+MAIL_PORT=465
+MAIL_USERNAME=mail@gmail.com
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=ssl
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Créer avec
 
-## Running the tests
+* [Laravel](https://laravel.com/) - Framework web
+* [Composer](https://getcomposer.org/) - Gestion des dépendances
+* [Bootstrap](https://getbootstrap.com/) - CSS et responsivité
+* [JQuery](https://jquery.com/) - Plugin JavaScript
 
-Explain how to run the automated tests for this system
+## Auteurs
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* **Théodore DAO** - *Front end* - [Pandahkiin](https://github.com/Pandahkiin)
+* **Loïc BOLLENBACH** - *API node.js* - [Tank-White](https://github.com/Tank-White)
+* **Nicolas DE GHESELLE** - *Back end*
 
