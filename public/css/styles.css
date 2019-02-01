@@ -1,0 +1,97 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    max-width: 100vw;
+    height: 100%;
+    display: table-row;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+#app {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#alert {
+    position: fixed;
+    width: 50%;
+    margin: 10px auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    transition: 0.5s;
+}
+.alert-hidden {
+    transform: translateY(-100px);
+}
+#cookies {
+    position:fixed;
+    bottom:0;
+    width: 60%;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    transition: 0.5s;
+    z-index:1;
+}
+.cookies-hidden {
+    animation: jump 0.7s normal forwards ease-in-out;
+}
+@keyframes jump {
+  60% {bottom: 30px}
+  100% {bottom: -100px}
+}
+
+.dataTables_wrapper {
+    display: block;
+    overflow-x: scroll;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 50px;
+    height: 15%;
+}
+
+.report-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.notifiy-bubule {
+    position : absolute;
+    border-radius: 50%;
+    color:white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    transform: translateY(20px);
+    z-index: 1;
+}

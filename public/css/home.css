@@ -1,0 +1,28 @@
+.home-main {
+    background: url(/img/CESI_Corporate_Ecole_Ingenieurs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100%;
+    width: 100%;
+}
+.home-main-title {
+    color: white;
+    margin: auto;
+    font-size: 90px;
+    text-shadow: 0 0 5px grey;
+
+    font-family: Nunito;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-secondary-titles {
+    color: white;
+    text-shadow: 0 0 5px grey;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Roboto;
+    text-align: center;
+}
