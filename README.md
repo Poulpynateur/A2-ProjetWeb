@@ -20,7 +20,7 @@ Ce projet contient les fonctionnalités suivantes :
 * Page d'administration pour les membres du BDE avec CRUD sur :
 	* les événement
 	* les suggestion
-	* les articles du magasin
+	* les articles de la boutique
 	* les commentaires
 * Notification pour chaque commande du magasin
 * Notification pour chaque élément signalé
