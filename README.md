@@ -1,8 +1,36 @@
-# Web project A2
+# Projet WEB - A2
 
-Application web crée en deuxième années à l’EXIA CESI. Ce projet contient les fonctionnalités suivantes :
-- Register and loggin system
-- Event and suggestion
+Application web crée en deuxième années à l’EXIA CESI.
+Thématique : Site web pour le BDE CESI.
+
+Ce projet contient les fonctionnalités suivantes :
+* Système d'inscription et connection
+* Page de présentation d'événement, de suggestions d'événement et d'un magasin
+* Gestion des rôles (Guest, Étudiant, Membre du BDE, Personnel établissement)
+
+Etudiant :
+* Poster des suggestions d'événements
+* S'incrire a des événement
+* Poster des images/commentaires
+* Liker des images
+* Acheter des articles dans la boutique
+* Panier avec validation de commande
+
+Membre BDE :
+* Page d'administration pour les membres du BDE avec CRUD sur :
+	* les événement
+	* les suggestion
+	* les articles du magasin
+	* les commentaires
+* Notification pour chaque commande du magasin
+* Notification pour chaque éléments signalés
+
+Personnel établissement :
+* Possibilité de signaler des :
+	* événements
+	* suggestions
+	* images
+	* commentaires
 
 ## Getting Started
 
