@@ -3,6 +3,8 @@
 Application web crée en deuxième années à l’EXIA CESI.
 Thématique : Site web pour le BDE CESI.
 
+![preview](preview.PNG)
+
 Ce projet contient les fonctionnalités suivantes :
 * Système d'inscription et connexion
 * Page de présentation d'événement, de suggestions d'événement et d'un magasin
